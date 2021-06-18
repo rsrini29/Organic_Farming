@@ -64,11 +64,33 @@ export class SignInComponent implements OnInit {
     else{
       this.errorLogin = true; 
     }
+    let data = JSON.stringify(this.loginFormGroup.value)
+    this.appService.getsignDetails(JSON.stringify(data)).subscribe(
+      res=>{
+        console.log("Output Success")
+        console.log(res)
+    },
+    error=>{
+      console.log("We ran into some error");
+      console.log(error);
+    });
+
   }
   submitSched(){
     console.log(this.schedFormGroup.value);
     console.log(JSON.stringify(this.schedFormGroup.value))
     this.schedFormGroup.get('mobileNum').setValue(this.loginFormGroup.get('number').value)
     console.log(JSON.stringify(this.schedFormGroup.value))
+    let data = JSON.stringify(this.schedFormGroup.value)
+    this.appService.getschedDetails(JSON.stringify(data)).subscribe(
+      res=>{
+        console.log("Output Success")
+        console.log(res)
+    },
+    error=>{
+      console.log("We ran into some error");
+      console.log(error);
+    });
+
   }
 }

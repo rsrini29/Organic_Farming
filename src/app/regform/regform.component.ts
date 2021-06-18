@@ -36,6 +36,16 @@ export class RegformComponent implements OnInit {
   submitRegForm(){
     console.log(this.registrationFormGroup.value);
     console.log(JSON.stringify(this.registrationFormGroup.value))
+    let data = JSON.stringify(this.registrationFormGroup.value)
+    this.appService.getregDetails(JSON.stringify(data)).subscribe(
+      res=>{
+        console.log("Output Success")
+        console.log(res)
+    },
+    error=>{
+      console.log("We ran into some error");
+      console.log(error);
+    });
   }
 
 }

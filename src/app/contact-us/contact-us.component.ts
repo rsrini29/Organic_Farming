@@ -25,6 +25,16 @@ export class ContactUsComponent implements OnInit {
   }
   submitContactForm(){
     console.log(JSON.stringify(this.contactFormGroup.value))
+    let data = JSON.stringify(this.contactFormGroup.value)
+    this.appService.getcontactDetails(JSON.stringify(data)).subscribe(
+      res=>{
+        console.log("Output Success")
+        console.log(res)
+    },
+    error=>{
+      console.log("We ran into some error");
+      console.log(error);
+    });
   }
 
 }

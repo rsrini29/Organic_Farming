@@ -1,0 +1,11 @@
+Guidelines for front-end access:
+
+The website we developed is by using Angular.
+To run this application you need to have Angular CLI and node.js in your local.
+After cloning the repository please open your command prompt and execute the following:
+1) npm install 
+2) ng serve
+
+
+NOTE: The backend service URL's need to be changed as per your needs. 
+You can find the URL's to be modified in app.service.ts
