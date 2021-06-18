@@ -1,4 +1,4 @@
-<body>
+<body *ngIf="default">
     <div id="content">
         <div id="section">
           <div>
@@ -14,16 +14,85 @@
             <ul>
               <li class="first"><img src="assets/images/Untitled Diagram-Page-3.png" alt=""><span></span>
                 <p>In a single day the farmers conduct an orchestra of activities: harvesting, hoeing, planting, working with children. The movement from one farm field to another includes a parade of farmers, trucks, tools, harvesting knives and bins. </p>
-                <a class="link" routerLink="/home_page">One Day Farming</a> </li>
+                <a class="link" routerLink="/about_us">One Day Farming</a> </li>
               <li> <img src="assets/images/Untitled Diagram-Page-4.png" alt=""><span></span>
                 <p>Recycling organics for compost creates a useful product, something that gardeners, farmers will be able to use in order to grow things. Organic compost provides an alternative to chemical fertilizers, providing a benefit to the environment.</p>
-                <a class="link" routerLink="/home_page">Organic Waste Recycling</a> </li>
+                <a class="link" routerLink="" (click)="myFunction()">Organic Waste Recycling</a> </li>
               <li> <img src="assets/images/Untitled Diagram-Page-5.png" alt=""><span></span>
                 <p>Animal husbandry helps in the proper management of animals by providing proper food, shelter and protection against diseases to domestic animals.It helps in developing high yielding breeds of animals by cross breeding.</p>
-                <a class="link" routerLink="/home_page">Animal Husbandry</a> </li>
+                <a class="link" routerLink="" (click)="function()">Animal Husbandry</a> </li>
             </ul>
           </div>      
   </div>
+  </body>
+  <body *ngIf="showthis">
+    <div id="content">
+        <div>
+          <div>
+            <h1 style="text-align: center;">Organic Waste Recycling</h1>
+            <p>Soil is a living system and soil fertility is the key to agricultural productivity. The maintenance of the
+              fertility of the soil is the primary step in any agricultural system. The plethora of microorganism
+              inherent in any soil system ensures that nutrient cycle is in place and the large substrate is broken
+              down to minute particles that can be easy assimilated by the plant’s root system. Therefore farmers
+              should maintain the inherent soil fertility by replacing the nutrients removed by the crops or livestock
+              grazing by using green manures, animal manures (raw or composted) and other natural fertilizers
+              (e.g. rock phosphate). </p>
+            <p>Organic waste is recycled through the composting process, which turns the yard and food waste into a nutrient-rich soil amendment that improves the soil.</p>  
+          <p>
+            Composting is the process of transforming organic materials of plant or animal origin into humus in
+            heaps or pits. Compared with uncontrolled decomposition of organic material, decomposition in the
+            composting process occurs at a faster rate, reaches higher temperatures and results in a product of
+            higher quality
+          </p>  
+           <h3>Advantages of Biowaste Recycling</h3>
+           <p>
+            Saving resources: Organic matter is converted into compost in the treatment facilities (composting process and anaerobic digestion). Compost is used as an organic fertilizer for agriculture and gardening and avoids the use of other fertilizers. Compost improves soil quality (fertility, porosity, water retention, and nutrient retention).
+           </p>
+           <p>
+            It improves the quality of air and water by reducing pollution: Treating organic waste in recycling facilities avoids odor problems, as well as gas emissions and leachates in landfills and incinerators. Also, organic matter is one of the precursors of the generation of the aforementioned dioxins and furans in incinerators
+           </p>
+           <p>
+            Improvement of soil quality: The compost helps to improve the structure and fertility of degraded soils and deficiencies in organic matter which are very common throughout the territory
+           </p>
+          </div>
+        </div> 
+    </div>         
+  </body>
+  <body *ngIf="showthat">
+    <div id="content">
+        <div>
+          <div>
+            <h1 style="text-align: center;">Animal Husbandry</h1>
+            <p>Integrating animal husbandry into crop producing farms is one of the principles of organic farming. In
+              temperate and arid zones, animal husbandry plays an important role in the recycling of nutrients,
+              while it is less emphasised in the humid tropics. The caring, training, and nurturing of animals is
+              considered an art in many farming communities.</p>
+            <p>Integrating animals into a farm help creating a closed or semi-closed system where energy and
+              nutrients are recycled. Animals can convert non-edible biomass (e.g. grass, straw,
+              kitchen waste) into food, while increasing soil fertility with their manure. </p>
+          <p>Many farm animals have a multi-functional role:</p>
+          <p>
+            → Produce dung which is of great importance for soil fertility.</p>
+          <p>
+            → Yield products such as milk or eggs for sale or own consumption continuously.</p>  
+          <p>
+            → Recycle by-products such as straw or kitchen waste.</p>  
+          <p>
+            → Serve as draught animals for tillage or transport.</p>  
+          <p> 
+            → Produce meat, hides, feathers, horns etc.</p>
+          <p> 
+            → Serve as an investment or a bank.</p> 
+          <p>
+            → Help in pest control (e.g. dugs) and weed management (e.g. grazing on barren fields). </p>  
+          <p>
+            → Have cultural or religious significance (prestige, ceremonies etc.).</p>  
+          <p> 
+            → Produce young stock for breeding or sale.
+          </p>  
+          </div>
+        </div> 
+    </div>         
   </body>
 
 

@@ -41,6 +41,17 @@
               </td>
             </tr>
             <tr>
+              <td><label for="name"><strong>Number of members*:</strong></label></td>
+              <td><input type="number" formControlName="people" id="name" required></td>
+            </tr>
+            <tr>
+              <td><label for="name"><strong>Do you need a pick-up and drop*?</strong></label></td>
+              <td> &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" formControlName="drop" value="Yes"> 
+                <label>Yes</label>&nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" formControlName="drop" value="No">
+                <label>No</label>&nbsp; &nbsp; &nbsp; &nbsp;</td>
+            </tr>
+            <tr>
               <td><label for="activities"><strong>Interested Activities*:</strong></label></td>
               <td>
                 <select formControlName="activites" multiple="" id="multiselect">
@@ -54,8 +65,13 @@
               </td>
             </tr>
             <tr>
-              <td></td>
-              <td colspan="1"><button mat-button [disabled]="!(schedFormGroup.valid)" (click)="submitSched()"> Submit </button> </td>
+              <td colspan="2"><button mat-button [disabled]="!(schedFormGroup.valid)" (click)="submitSched()"> Submit </button> </td>
+            </tr>
+            <tr>
+              <td><label for="name"><strong>Fee payment:</strong></label></td>
+              <td>
+                <a routerLink="">Payment Page</a>
+              </td>
             </tr>
           </table>
         </form>

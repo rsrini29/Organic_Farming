@@ -17,6 +17,7 @@ export class SignInComponent implements OnInit {
   loginFormGroup: FormGroup;
   schedFormGroup: FormGroup;
   mobile: number;
+  dropdownList = [];
   activityList: string[] = ["Hyderabad","Delhi"];
 
   ngOnInit(): void {
@@ -25,6 +26,12 @@ export class SignInComponent implements OnInit {
     this.displayLogin = true;
     this.displaySched = false;
     this.errorLogin = false; 
+    this.dropdownList = [
+      { id: 1, text: 'Barbecue' },
+      { id: 2, text: 'Mustard' },
+      { id: 3, text: 'Ketchup' },
+      { id: 4, text: 'Mayonaise' }
+    ];
   }
   createlogin(){
     this.loginFormGroup = this.formBuilder.group({
@@ -37,7 +44,9 @@ export class SignInComponent implements OnInit {
       'location':['',[Validators.required]],
       'date': ['',[Validators.required]],
       'activites': ['',[Validators.required]],
-      'mobileNum': ['']
+      'mobileNum': [''],
+      'people': ['',[Validators.required]],
+      'drop':['',[Validators.required]]
     })
   }
   submitForm(){
