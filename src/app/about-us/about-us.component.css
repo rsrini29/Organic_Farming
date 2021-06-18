@@ -1,0 +1,114 @@
+body {
+	background: url("/assets/images/bg-body.gif") repeat center; 
+	color: #80662b;
+	font-family: 'AndikaRegular';
+	font-size: 14px;
+	margin: 0;
+	min-width: 950px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+p a {
+	color: #80662B;
+	font-style: italic;
+}
+#content {
+	background: url("/assets/images/bg-headliner.gif") repeat top center;
+	height: auto;
+	width: 100%;
+}
+
+#content div {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	width: 950px;
+}
+#content div#section {
+	background: url("/assets/images/bg-headliner-top-shadow.jpg") no-repeat top center;
+	height: 365px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 35px 0 0;
+	position: relative;
+	width: 950px;
+}
+#content div#section div, #content div.section div {
+	background: none;
+	float: left;
+	margin-left: 0;
+	padding-top: 0;
+	width: 286px;
+}
+#content div#section div h1 {
+	color: #745b1b;
+	font-family: 'CarterOneRegular';
+	font-size: 34px;
+	line-height: 34px;
+	margin: 0;
+	padding: 0;
+	text-shadow: 1px 1px 0 #fff0d8;
+	width: auto;
+}
+#content div#section div p {
+	line-height: 21px;
+	margin: 0;
+	padding: 15px 0 0;
+	text-align: justify;
+	text-shadow: 1px 1px 0 #f4dcb6;
+	width: auto;
+}
+#content div#section div span {
+	background: none;
+	display: block;
+	height: auto;
+	font-size: 13px;
+	left: 0;
+	margin-top: 17px;
+	position: static;
+	top: 0;
+	width: auto;
+}
+#content div#section div span a {
+	background: url("/assets/images/sprites-buttons.gif") no-repeat 0 -303px;
+	color: #fdfdfb;
+	display: inline-block;
+	font-family: 'CarterOneRegular';
+	font-size: 16px;
+	height: 38px;
+	line-height: 37px;
+	margin-left: 10px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #216b20;
+	width: 136px;
+}
+#content div#section div span a.first {
+	margin-left: 0;
+}
+#content div#section div#figure {
+	margin-left: 51px;
+	width: 612px;
+}
+#content div#section div#figure img, #content div div img, #content div#featured ul li img {
+	border: 3px solid #fff;
+}
+#content div#section div#figure span {
+	background: url("/assets/images/bg-headliner-image-shadow.jpg") no-repeat center;
+	display: block;
+	height: 13px;
+	margin-top: -6px;
+	width: 612px;
+}
+
+button{
+    background-color: #216b20;
+}
+
+
+
+

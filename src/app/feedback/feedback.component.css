@@ -1,0 +1,400 @@
+
+button{
+    text-align: center;
+    margin-top: 2%;
+	margin-bottom: 1%;
+}
+#content {
+	background: url("/assets/images/bg-headliner.gif") repeat top center;
+	height: auto;
+	width: 100%;
+}
+#content div#section {
+	background: url("/assets/images/bg-headliner-top-shadow.jpg") no-repeat top center;
+	height: 365px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 35px 0 0;
+	position: relative;
+	width: 950px;
+}
+#content div#section div, #content div.section div {
+	background: none;
+	float: left;
+	margin-left: 0;
+	padding-top: 0;
+	width: 286px;
+}
+#content div#section div h1 {
+	color: #745b1b;
+	font-family: 'CarterOneRegular';
+	font-size: 34px;
+	line-height: 34px;
+	margin: 0;
+	padding: 0;
+	text-shadow: 1px 1px 0 #fff0d8;
+	width: auto;
+}
+#content div#section div p {
+	line-height: 21px;
+	margin: 0;
+	padding: 15px 0 0;
+	text-align: justify;
+	text-shadow: 1px 1px 0 #f4dcb6;
+	width: auto;
+}
+#content div#section div span {
+	background: none;
+	display: block;
+	height: auto;
+	font-size: 13px;
+	left: 0;
+	margin-top: 17px;
+	position: static;
+	top: 0;
+	width: auto;
+}
+#content div#section div span a {
+	background: url("/assets/images/sprites-buttons.gif") no-repeat 0 -303px;
+	color: #fdfdfb;
+	display: inline-block;
+	font-family: 'CarterOneRegular';
+	font-size: 16px;
+	height: 38px;
+	line-height: 37px;
+	margin-left: 10px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #216b20;
+	width: 136px;
+}
+#content div#section div span a.first {
+	margin-left: 0;
+}
+#content div#section div#figure {
+	margin-left: 51px;
+	width: 612px;
+}
+#content div#section div#figure img, #content div div img, #content div#featured ul li img {
+	border: 3px solid #fff;
+}
+#content div#section div#figure span {
+	background: url("/assets/images/bg-headliner-image-shadow.jpg") no-repeat center;
+	display: block;
+	height: 13px;
+	margin-top: -6px;
+	width: 612px;
+}
+#content div#featured ul li p a {
+	color: #525252;
+}
+#content div#section span.background {
+	background: url("/assets/images/bg-headliner-bottom-shadow.jpg") no-repeat center;
+	top: 328px;
+	display: block;
+	height: 37px;
+	position: relative;
+	width: 950px;
+}
+#content div#featured {
+	background: url("/assets/images/bg-featured.gif") repeat-x top center;
+	height: 356px;
+	padding: 35px 0;
+	width: 100%;
+}
+#content div#featured ul {
+	color: #525252;
+	list-style: none;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 950px;
+}
+#content div#featured ul li {
+	float: left;
+	margin-left: 53px;
+	width: 281px;
+}
+#content div#featured ul li.first {
+	margin-left: 0;
+}
+#content div#featured ul li span {
+	background: url("/assets/images/bg-featured.jpg") no-repeat center;
+	display: block;
+	height: 15px;
+	margin-top: -6px;
+	width: 281px;
+}
+#content div#featured ul li a.link {
+	background: url("/assets/images/sprites-buttons.gif") no-repeat 0 -166px;
+	color: #FDFDFB;
+	display: block;
+	height: 43px;
+	font-family: 'CarterOneRegular';
+	font-size: 16px;
+	line-height: 43px;
+	margin-top: 25px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #216B20;
+	width: 281px;
+}
+#content div#featured ul li p {
+	line-height: 21px;
+	margin-top: 15px;
+	padding-bottom: 5px;
+	text-align: left;
+	text-shadow: 1px 1px 0 #e8e6e7;
+}
+#content div {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	width: 950px;
+}
+#content div div, #content div.section div.figure {
+	background: url("/assets/images/bg-image-higlight.jpg") no-repeat;
+	float: right;
+	margin-left: 45px;
+	padding: 35px 0 0;
+	position: relative;
+	width: 614px;
+}
+#content div div span {
+	background: url("/assets/images/bg-image-right-shadow.jpg") no-repeat bottom right;
+	display: block;
+	height: 16px;
+	top: 347px;
+	position: absolute;
+	right: 0;
+	width: 201px;
+}
+#content div p {
+	line-height: 21px;
+	margin: 0;
+	padding-bottom: 25px;
+	text-align: left;
+	text-shadow: 1px 1px 0 #F4DCB6;
+}
+#content div b {
+	color: #816221;
+	text-shadow: 1px 1px 0 #F4DCB6;
+}
+#content div b.first {
+	display: block;
+	padding-top: 33px;
+}
+#content div#blog h1 {
+	font-family: 'CarterOneRegular';
+	font-size: 18px;
+	margin: 0;
+	padding: 30px 0;
+}
+#content div#blog h1 a {
+	color: #73541b;
+	display: block;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #c8b57d;
+}
+#content div#blog h1 a:hover {
+	color: #2e5306;
+	text-shadow: 1px 1px 0 #f2fcd9;
+}
+#content div#blog p {
+	padding-bottom: 0;
+	margin: 0;
+	text-align: justify;
+}
+#content div h2 {
+	color: #73541B;
+	font-family: 'CarterOneRegular';
+	font-size: 25px;
+	margin: 0;
+	padding: 25px 0 10px;
+	text-shadow: 1px 1px 0 #C8B57D
+}
+#content div h3 {
+	color: #73541B;
+	font-family: 'CarterOneRegular';
+	font-size: 23px;
+	margin: 0;
+	padding: 25px 0 10px;
+	text-shadow: 1px 1px 0 #C8B57D
+}
+#content div h2 span {
+	font-size: 20px;
+	font-weight: normal;
+}
+#content div.section {
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+#content div.section h4 {
+	color: #73541B;
+	font-family: 'CarterOneRegular';
+	font-size: 18px;
+	line-height: 20px;
+	padding-top: 30px;
+	text-shadow: 1px 1px 0 #C8B57D;
+}
+#content div.section div {
+	padding-top: 10px;
+}
+#content div.section div a {
+	background: url("/assets/images/sprites-buttons.gif") no-repeat center -105px;
+	color: #ceb57d;
+	display: block;
+	font-family: 'CarterOneRegular';
+	font-size: 16px;
+	line-height: 50px;
+	margin-top: 25px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	width: 283px;
+}
+#content div.section div a.selected, #content div.section div a:hover {
+	background: url("/assets/images/sprites-buttons.gif") no-repeat 0 0;
+	color: #FDFDFB;
+	text-shadow: 1px 1px 0 #216B20;
+}
+#content div.section div.figure a {
+	background: none;
+	margin-top: 0;
+}
+#content div form {
+	margin: 0 auto;
+	width: 825px;
+}
+#content div table {
+	margin-top: 30px;
+}
+#content div form table tr td input#name, #content div form table tr td input#email, #content div form table tr td input#subject {
+	background: url("/assets/images/sprites-inputs.gif") no-repeat 0 -82px;
+	border: 0;
+	color: #FFFEFF;
+	font-family: Arial;
+	font-size: 12px;
+	height: 38px;
+	margin-left: 20px;
+	padding: 0 5px;
+	width: 259px;
+}
+#content div form table tr td textarea#message, #content div form table tr td label.newsletter {
+	margin-left: 20px;
+}
+#content div form table tr td input#send {
+	background: url("/assets/images/sprites-buttons.gif") no-repeat 0 -258px;
+	border: 0;
+	height: 36px;
+	margin-left: 193px;
+	width: 96px;
+}
+#content div form table td {
+	padding: 10px 0
+}
+#content div table tr td textarea {
+	background: url("/assets/images/text-area.jpg") no-repeat;
+	border: 0;
+	color: #FFFEFF;
+	font-family: Arial;
+	font-size: 12px;
+	height: 40px;
+	padding: 5px;
+	width: 400px;
+}
+#content div table tr td label span, #content div form div fieldset label span {
+	color: #674d1c;
+	font-family: Arial;
+	font-size: 12px;
+}
+#content div form div fieldset label span {
+	background: none;
+	display: inline;
+	height: auto;
+	position: static;
+	width: auto;
+}
+#content div table tr td label.email {
+	font-weight: bold;
+	margin-left: 115px;
+	padding-top: 5px;
+	vertical-align: sub;
+}
+#content div table tr td label input#newsletter, #content div table tr td label input#terms, #content div form div fieldset div label input#newsletter, #content div form div fieldset div label input#terms, #content div form div fieldset div label input#shipping, #content div form div fieldset div label input#saveas {
+	vertical-align: middle;
+}
+#content div table tr td.message {
+	vertical-align: top;
+}
+#content div form#register {
+	margin-top: 30px;
+	overflow: hidden;
+	width: auto;
+}
+#content div form div {
+	background: url("/assets/images/bg-form.jpg") no-repeat;
+	float: left;
+	height: 396px;
+	margin: 0 0 0 24px;
+	padding: 0;
+	width: 463px;
+}
+#content div form div.first {
+	margin-left: 0;
+}
+#content div form div fieldset {
+	border: 0;
+	margin: 20px auto;
+	width: 386px;
+}
+#content div form div fieldset input.inputtext {
+	background: url("/assets/images/sprites-inputs.gif") no-repeat 0 -42px;
+	border: 0;
+	height: 31px;
+	margin: 10px 0;
+	padding: 0 5px;
+	width: 376px;
+}
+#content div form div fieldset input#city {
+	background: url("/assets/images/sprites-inputs.gif") no-repeat 0 0;
+	border: 0;
+	height: 32px;
+	margin: 10px 0;
+	padding: 0 5px;
+	width: 172px;
+}
+#content div form div fieldset label.zipcode {
+	margin-left: 168px;
+}
+#content div form div fieldset input#zipcode {
+	background: url("/assets/images/sprites-inputs.gif") no-repeat 0 0;
+	border: 0;
+	height: 32px;
+	margin: 0 0 0 15px;
+	padding: 0 5px;
+	width: 172px;
+}
+#content div form div div {
+	background: none;
+	float: none;
+	height: auto;
+	margin-left: 0;
+	margin-top: 33px;
+	width: auto;
+}
+#content div form div div label.terms {
+	padding-left: 15px;
+}
+#content div form input#createaccount {
+	background: url("/assets/images/sprites-buttons.gif") no-repeat 0 -60px;
+	border: 0;
+	float: right;
+	height: 36px;
+	margin-top: 30px;
+	width: 188px;
+}
+
+button{
+    background-color: #216b20;
+	color: black;
+}

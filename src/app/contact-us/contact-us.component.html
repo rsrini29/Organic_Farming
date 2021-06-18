@@ -1,0 +1,28 @@
+<div id="content">
+    <div>
+      <h3 style="text-align: center;">Get in touch with us!</h3>
+      <form [formGroup]="contactFormGroup"  class="mat-elevation-z3">
+        <table>
+          <tr>
+            <td><label for="name"><strong>Name*:</strong></label></td>
+            <td><input type="text" formControlName="name" id="name" required></td>
+            <td><label class="email" for="email">Email*:</label></td>
+            <td><input type="text" formControlName="email" id="email" required></td>
+          </tr>
+          <tr>
+            <td><label for="subject"><strong>Contact*:</strong></label></td>
+            <td><input type="number" formControlName="contact" id="subject" required></td>
+          </tr>
+          <tr>
+            <td class="message"><label for="message"><strong>Description*:</strong></label></td>
+            <td colspan="3"><textarea formControlName="description" name="message" id="message" cols="30" rows="10" required></textarea></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td colspan="1"><button mat-button [disabled]="!(contactFormGroup.valid)" (click) = "submitContactForm()"> Submit </button> </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>

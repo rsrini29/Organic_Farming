@@ -1,0 +1,36 @@
+<body>
+<div id="content">
+    <div>
+    <h3 style="text-align: center;">Register your account</h3>
+      <form [formGroup]="registrationFormGroup"  class="mat-elevation-z3" id="register">
+        <div class="first">
+          <fieldset>
+            <label for="name"><strong>Name*:</strong></label>
+            <input  type="text" formControlName="name" class="inputtext" id="name" required>
+            <label for="email"><strong>Email*:</strong></label>
+            <input type="text" formControlName="email" id="email" class="inputtext" required>
+            <label for="password"><strong>Password*:</strong></label>
+            <input type="password" formControlName="password" id="password" class="inputtext" required>
+            <label for="confirmpass"><strong>Confirm Password*:</strong></label>
+            <input type="password" formControlName="conPassword" id="confirmpass" class="inputtext" required>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <label for="completename"><strong>Complete name*:</strong></label>
+            <input  type="text" formControlName="comName" class="inputtext" id="comName" required>
+            <label for="address"><strong>Primary address*:</strong></label>
+            <input type="text" formControlName="address" id="address" class="inputtext" required>
+            <label for="billing"><strong>Mobile Number*:</strong></label>
+            <input type="number" formControlName="mobNum" required id="mobNum" class="inputtext" required>
+            <label for="city"><strong>City*:</strong></label>
+            <label class="zipcode" for="zipcode"><strong>Zip Code*:</strong></label>
+            <input type="text" formControlName="city" id="city" required>
+            <input type="number" formControlName="pin" id="zipcode" class="zipcode" required>
+          </fieldset>
+        </div>
+        <button mat-button (click) = "submitRegForm()" [disabled]="!(registrationFormGroup.valid)"> Submit </button> 
+      </form>
+    </div>
+  </div>
+</body>

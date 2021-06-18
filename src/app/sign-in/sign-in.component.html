@@ -1,0 +1,64 @@
+<div id="content">
+    <div *ngIf = "displayLogin">
+      <h3 style="text-align: center;">Login</h3>
+      <form [formGroup]="loginFormGroup"  class="mat-elevation-z3">
+        <table style="margin-left: 28%;">
+          <tr>
+            <td><label for="name"><strong>Mobile Number*:</strong></label></td>
+            <td><input type="number" formControlName="number" id="name" required></td>
+          </tr>
+          <tr>
+            <td><label for="subject"><strong>Password*:</strong></label></td>
+            <td><input type="password" formControlName="password" id="email" required></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="1"><button mat-button [disabled]="!(loginFormGroup.valid)" (click)="submitForm()"> Submit </button> </td>
+          </tr>
+          <tr *ngIf = "errorLogin">
+              <td></td>
+              <td> <p> Please provide valid credentials. </p></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div *ngIf = "displaySched">
+        <h3 style="text-align: center;">Schedule your trip!</h3>
+        <form [formGroup]="schedFormGroup"  class="mat-elevation-z3">
+          <table style="margin-left: 28%;">
+            <tr>
+              <td><label for="name"><strong>Date*:</strong></label></td>
+              <td><input type="date" formControlName="date" id="name" required></td>
+            </tr>
+            <tr>
+              <td><label for="subject"><strong>Location*:</strong></label></td>
+              <td>
+                <select formControlName="location" id="email" required>
+                  <option value="Hyderabad">Hyderabad</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Chennai">Chennai</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="activities"><strong>Interested Activities*:</strong></label></td>
+              <td>
+                <select formControlName="activites" multiple="" id="multiselect">
+                  <option value="Planting/Sowing">Planting/Sowing</option>
+                  <option value="Ploughing">Ploughing</option>
+                  <option value="Harvesting">Harvesting</option>
+                  <option value="Manure Preparation">Manure Preparation</option>
+                  <option value="Crop Maintenance">Crop Maintenance</option>
+                  <option value="Irrigation Methods">Irrigation Methods</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="1"><button mat-button [disabled]="!(schedFormGroup.valid)" (click)="submitSched()"> Submit </button> </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+  </div>
+
